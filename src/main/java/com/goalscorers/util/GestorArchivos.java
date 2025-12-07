@@ -4,6 +4,8 @@
  */
 package com.goalscorers.util;
 import com.goalscorers.logica.DatosCargados;
+import com.goalscorers.modelos.Partido;
+import com.goalscorers.modelos.Seleccion;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

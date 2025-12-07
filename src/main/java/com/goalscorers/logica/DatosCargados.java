@@ -5,6 +5,8 @@
 package com.goalscorers.logica;
 
 import java.util.ArrayList;
+import com.goalscorers.modelos.Partido;
+import com.goalscorers.modelos.Seleccion;
 
 /**
  *
