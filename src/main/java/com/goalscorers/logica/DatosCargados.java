@@ -4,10 +4,29 @@
  */
 package com.goalscorers.logica;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author hijo
  */
 public class DatosCargados {
-    
+    private ArrayList<Partido> partidos;
+    private ArrayList<Seleccion> selecciones;
+
+    public ArrayList<Partido> getPartidos() {
+        return partidos;
+    }
+
+    public void setPartidos(ArrayList<Partido> partidos) {
+        this.partidos = partidos;
+    }
+
+    public ArrayList<Seleccion> getSelecciones() {
+        return selecciones;
+    }
+
+    public void setSelecciones(ArrayList<Seleccion> selecciones) {
+        this.selecciones = selecciones;
+    }
 }
