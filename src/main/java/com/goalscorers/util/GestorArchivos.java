@@ -36,7 +36,10 @@ public class GestorArchivos {
                 String torneo = partes[5];
                 String ciudad = partes[6];
                 String pais = partes[7];
-                boolean esNeutral = false;
+                boolean esNeutral = true;
+                if(partes[8].equals("FALSE")){
+                    esNeutral= false;
+                }
                         
                 partidos.add(new Partido(local, visitante, golesLocal, golesVisitante, pais, ciudad, torneo, fecha, esNeutral));
                 
