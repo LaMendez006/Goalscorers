@@ -16,10 +16,10 @@ public class Analizador {
     public static int obtenerVictorias(DatosCargados datos, Seleccion seleccion){
         int victorias = 0;
         for(Partido partido: datos.getPartidos()){
-            if(partido.obtenerGanador()==ResultadoPartido.LOCAL && partido.getEquipoLocal()==seleccion){
+            if(partido.obtenerGanador()==ResultadoPartido.LOCAL && partido.getEquipoLocal().equals(seleccion)){
                 victorias ++;
             }
-            if(partido.obtenerGanador()==ResultadoPartido.VISITANTE && partido.getEquipoVisitante()==seleccion){
+            if(partido.obtenerGanador()==ResultadoPartido.VISITANTE && partido.getEquipoVisitante().equals(seleccion)){
                 victorias ++;
             }
         }
@@ -29,7 +29,7 @@ public class Analizador {
     public static int obtenerEmpates(DatosCargados datos, Seleccion seleccion){
         int empates = 0;
         for(Partido partido: datos.getPartidos()){
-            if(partido.obtenerGanador()==ResultadoPartido.EMPATE && (partido.getEquipoLocal()==seleccion || partido.getEquipoVisitante()==seleccion)){
+            if(partido.obtenerGanador()==ResultadoPartido.EMPATE && (partido.getEquipoLocal().equals(seleccion) || partido.getEquipoVisitante().equals(seleccion))){
                 empates ++;
             }
         }
