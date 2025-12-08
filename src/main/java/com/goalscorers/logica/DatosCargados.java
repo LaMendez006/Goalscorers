@@ -41,4 +41,13 @@ public class DatosCargados {
     public void setSelecciones(ArrayList<Seleccion> selecciones) {
         this.selecciones = selecciones;
     }
+    
+    public Seleccion buscarSeleccionPorNombre(String nombre){
+        for(Seleccion s: this.selecciones){
+            if(s.getNombre().equals(nombre)){
+                return s;
+            }
+        }
+        return null;
+    }
 }
