@@ -115,7 +115,15 @@ public class Partido {
         this.esNeutral = esNeutral;
     }
     
-    
+    public ResultadoPartido obtenerGanador(){
+        if(this.puntuacionLocal>this.puntuacionVisitante){
+            return ResultadoPartido.LOCAL;
+        }else if(this.puntuacionVisitante > this.puntuacionLocal){
+            return ResultadoPartido.VISITANTE;
+        }else{
+            return ResultadoPartido.EMPATE;
+        }
+    }
     
     
 }
