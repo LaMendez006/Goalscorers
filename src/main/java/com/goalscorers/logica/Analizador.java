@@ -4,10 +4,27 @@
  */
 package com.goalscorers.logica;
 
+import com.goalscorers.modelos.Partido;
+import com.goalscorers.modelos.ResultadoPartido;
+import com.goalscorers.modelos.Seleccion;
+
 /**
  *
  * @author hijo
  */
 public class Analizador {
+    public static int obtenerVictorias(DatosCargados datos, Seleccion seleccion){
+        int victorias = 0;
+        for(Partido partido: datos.getPartidos()){
+            if(partido.obtenerGanador()==ResultadoPartido.LOCAL && partido.getEquipoLocal()==seleccion){
+                victorias ++;
+            }
+            if(partido.obtenerGanador()==ResultadoPartido.VISITANTE && partido.getEquipoVisitante()==seleccion){
+                victorias ++;
+            }
+        }
+        return victorias;
+    }
+    
     
 }
