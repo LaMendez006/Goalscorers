@@ -81,7 +81,7 @@ fecha, equipo_local, equipo_visitante, puntuacion_local, puntuacion_visitante, t
 
 tambien hago esta parte cuando esten las interfaces
 
-# Proximas mejoras
+## Proximas mejoras
 
 - Implementación de interfaz gráfica con Swing
 - Pruebas unitarias con JUnit
