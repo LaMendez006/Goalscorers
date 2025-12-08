@@ -28,7 +28,7 @@ public class Partido {
         this.ciudad = ciudad;
         this.torneo = torneo;
         this.fecha = fecha;
-        if(equipoLocal.equals(pais)){
+        if(equipoLocal.getNombre().equals(pais)){
             this.esNeutral = true;
         }else{
             this.esNeutral = false;
