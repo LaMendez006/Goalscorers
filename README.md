@@ -71,12 +71,13 @@ GoalScorers:
 ## Formato del CSV
 
 ### results.csv
+```
 fecha, equipo_local, equipo_visitante, puntuacion_local, puntuacion_visitante, torneo, ciudad, pais, neutral
 1872-11-30, Scotland, England, 0, 0, Friendly, Glasgow, Scotland, FALSE
 1873-03-08, England, Scotland, 4, 2, Friendly, London, England, FALSE
 1874-03-07, Scotland, England, 2, 1, Friendly, Glasgow, Scotland, FALSE
 1875-03-06, England, Scotland, 2, 2, Friendly, London, England, FALSE
-
+```
 ## Ejemplos de uso
 
 tambien hago esta parte cuando esten las interfaces
