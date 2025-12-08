@@ -7,7 +7,7 @@ Aplicación desarrollada en Java que analiza los resultados de partidos de futbo
 Lectura de CSV | Completado
 Clases modelo (Partido, Seleccion) | Completado
 Logica para las estadísticas | Completado
-Interfaces graficasn | Pendiente
+Interfaces graficas | Pendiente
 Pruebas unitarias | Pendiente
 Integracion con SonarCloud | Pendiente
 ```
@@ -22,7 +22,7 @@ Integracion con SonarCloud | Pendiente
 
 ## Estructura del Proyecto
 ```
-GoalScorers:.
+GoalScorers:
 │   .gitignore
 │   nbactions.xml
 │   pom.xml
