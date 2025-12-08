@@ -34,6 +34,88 @@ public class Partido {
             this.esNeutral = false;
         }
     }
+
+    public Seleccion getEquipoLocal() {
+        return equipoLocal;
+    }
+
+    public void setEquipoLocal(Seleccion equipoLocal) {
+        this.equipoLocal = equipoLocal;
+    }
+
+    public Seleccion getEquipoVisitante() {
+        return equipoVisitante;
+    }
+
+    public void setEquipoVisitante(Seleccion equipoVisitante) {
+        this.equipoVisitante = equipoVisitante;
+    }
+
+    public int getPuntuacionLocal() {
+        return puntuacionLocal;
+    }
+
+    public boolean setPuntuacionLocal(int puntuacionLocal) {
+        if(puntuacionLocal >= 0){
+            this.puntuacionLocal = puntuacionLocal;
+            return true;
+        }
+        return false;
+    }
+
+    public int getPuntuacionVisitante() {
+        return puntuacionVisitante;
+    }
+
+    public boolean setPuntuacionVisitante(int puntuacionVisitante) {
+        if(puntuacionVisitante >=0){
+            this.puntuacionVisitante = puntuacionVisitante;
+            return true;
+        }
+        return false;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public String getCiudad() {
+        return ciudad;
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public String getTorneo() {
+        return torneo;
+    }
+
+    public void setTorneo(String torneo) {
+        this.torneo = torneo;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+    public boolean esPartidoNeutral() {
+        return esNeutral;
+    }
+
+    public void setEsNeutral(boolean esNeutral) {
+        this.esNeutral = esNeutral;
+    }
+    
+    
     
     
 }
