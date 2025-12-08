@@ -124,6 +124,21 @@ public class Partido {
             return ResultadoPartido.EMPATE;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Partido " +equipoLocal +" vs "+ equipoVisitante +  
+                "\nEquipo local: " + equipoLocal + 
+                "\nEquipo visitante: " + equipoVisitante + 
+                "\nPuntuacion local: " + puntuacionLocal + 
+                "\nPuntuacion visitante: " + puntuacionVisitante + 
+                "\nPais: " + pais + 
+                "\nCiudad: " + ciudad + 
+                "\nTorneo: " + torneo + 
+                "\nFecha: " + fecha + 
+                "\nNeutral: " + esNeutral;
+    }
+    
     
     
 }
