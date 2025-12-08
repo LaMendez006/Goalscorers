@@ -24,6 +24,7 @@ public class GestorArchivos {
         try {
             BufferedReader br = new BufferedReader(new FileReader(ruta));
             String linea;
+            br.readLine();
             while ((linea = br.readLine()) != null){
                 String[] partes = linea.split(",");
                 String fecha = partes[0];
