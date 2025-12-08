@@ -35,4 +35,17 @@ public class Analizador {
         }
         return empates;
     }
+    
+    public static int obtenerDerrotas(DatosCargados datos, Seleccion seleccion){
+        int derrotas = 0;
+        for(Partido partido: datos.getPartidos()){
+            if(partido.obtenerGanador()==ResultadoPartido.LOCAL && partido.getEquipoVisitante().equals(seleccion)){
+                derrotas ++;
+            }
+            if(partido.obtenerGanador()==ResultadoPartido.VISITANTE && partido.getEquipoLocal().equals(seleccion)){
+                derrotas ++;
+            }
+        }
+        return derrotas;     
+    }
 }
