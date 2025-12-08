@@ -16,6 +16,11 @@ public class DatosCargados {
     private ArrayList<Partido> partidos;
     private ArrayList<Seleccion> selecciones;
 
+    public DatosCargados(ArrayList<Partido> partidos, ArrayList<Seleccion> selecciones) {
+        this.partidos = partidos;
+        this.selecciones = selecciones;
+    }
+
     public ArrayList<Partido> getPartidos() {
         return partidos;
     }
