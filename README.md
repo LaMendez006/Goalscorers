@@ -1,4 +1,4 @@
-# Goal Scorers
+<img width="32766" height="81" alt="image" src="https://github.com/user-attachments/assets/0a24cb1b-5add-4e64-92ac-e26f801e554b" /># Goal Scorers
 
 Aplicación desarrollada en Java que analiza los resultados de partidos de futbol desde un CSV para obtener estadisticas básicas.
 
@@ -77,3 +77,19 @@ fecha, equipo_local, equipo_visitante, puntuacion_local, puntuacion_visitante, t
 1874-03-07, Scotland, England, 2, 1, Friendly, Glasgow, Scotland, FALSE
 1875-03-06, England, Scotland, 2, 2, Friendly, London, England, FALSE
 
+## Ejemplos de uso
+
+tambien hago esta parte cuando esten las interfaces
+
+# Proximas mejoras
+
+- Implementación de interfaz gráfica con Swing
+- Pruebas unitarias con JUnit
+- Integración con SonarCloud
+
+## Autores
+- pongan su nombre aca
+- pongan su nombre aca
+- Oswaldo Daza
+Taller final - Programación Orientada a Objetos
+  
