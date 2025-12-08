@@ -18,4 +18,22 @@ public class Partido {
     private String torneo;
     private String fecha;
     private boolean esNeutral; 
+
+    public Partido(Seleccion equipoLocal, Seleccion equipoVisitante, int puntuacionLocal, int puntuacionVisitante, String pais, String ciudad, String torneo, String fecha) {
+        this.equipoLocal = equipoLocal;
+        this.equipoVisitante = equipoVisitante;
+        this.puntuacionLocal = puntuacionLocal;
+        this.puntuacionVisitante = puntuacionVisitante;
+        this.pais = pais;
+        this.ciudad = ciudad;
+        this.torneo = torneo;
+        this.fecha = fecha;
+        if(equipoLocal.equals(pais)){
+            this.esNeutral = true;
+        }else{
+            this.esNeutral = false;
+        }
+    }
+    
+    
 }
