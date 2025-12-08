@@ -48,4 +48,17 @@ public class Analizador {
         }
         return derrotas;     
     }
+    
+    public static int obtenerGolesAFavor(DatosCargados datos, Seleccion seleccion){
+        int goles = 0;
+        for(Partido partido: datos.getPartidos()){
+            if(partido.getEquipoVisitante().equals(seleccion)){
+                goles += partido.getPuntuacionVisitante();
+            }
+            if(partido.getEquipoLocal().equals(seleccion)){
+                goles += partido.getPuntuacionLocal();
+            }
+        }
+        return goles; 
+    }
 }
