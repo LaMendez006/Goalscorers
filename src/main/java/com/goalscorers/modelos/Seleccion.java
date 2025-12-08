@@ -8,10 +8,10 @@ package com.goalscorers.modelos;
  *
  * @author hijo
  */
-public class Equipo {
+public class Seleccion {
     private String nombre;
 
-    public Equipo(String nombre) {
+    public Seleccion(String nombre) {
         this.nombre = nombre;
     }
 
