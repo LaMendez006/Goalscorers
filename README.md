@@ -1,4 +1,4 @@
-<img width="32766" height="81" alt="image" src="https://github.com/user-attachments/assets/0a24cb1b-5add-4e64-92ac-e26f801e554b" /># Goal Scorers
+# Goal Scorers
 
 Aplicación desarrollada en Java que analiza los resultados de partidos de futbol desde un CSV para obtener estadisticas básicas.
 
@@ -88,8 +88,9 @@ tambien hago esta parte cuando esten las interfaces
 - Integración con SonarCloud
 
 ## Autores
-- pongan su nombre aca
-- pongan su nombre aca
-- Oswaldo Daza
+```
+pongan su nombre aca
+pongan su nombre aca
+Oswaldo Daza
 Taller final - Programación Orientada a Objetos
-  
+```
