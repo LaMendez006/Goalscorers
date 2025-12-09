@@ -63,7 +63,7 @@ GoalScorers:
 ## ¿Cómo ejecutar el proyecto?
 
 ### Requisitos
-- Java 25 o superior
+- Java 21 o superior
 - Maven 3.9.0 o superior
 - Git (si vas a clonar el repositorio)
 
