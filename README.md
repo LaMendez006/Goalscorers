@@ -74,11 +74,6 @@ git clone https://github.com/LaMendez006/Goalscorers.git
 Entra a la carpeta del proyecto con:
 cd GoalScorers
 
-#### Compilar el proyecto
-Ejecuta:
-mvn clean install
-Esto descargará las dependencias y creará los archivos necesarios.
-
 #### Ejecutar la aplicación
 Para iniciar el programa, usa:
 mvn exec:java
