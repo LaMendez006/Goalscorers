@@ -8,7 +8,7 @@ Lectura de CSV | Completado
 Clases modelo (Partido, Seleccion) | Completado
 Logica para las estadísticas | Completado
 Interfaces graficas | Pendiente
-Pruebas unitarias | Pendiente
+Pruebas unitarias | Completado
 Integracion con SonarCloud | Pendiente
 ```
 ## Caracteristicas principales
@@ -91,7 +91,7 @@ tambien hago esta parte cuando esten las interfaces
 ## Autores
 ```
 pongan su nombre aca
-pongan su nombre aca
+Alejandro Diaz
 Oswaldo Daza
 Taller final - Programación Orientada a Objetos
 ```
