@@ -14,7 +14,7 @@ public class GestorArchivosTest {
 
     @Test
     public void testCargarDatos_ArchivoExiste() throws Exception {
-        URL resource = getClass().getClassLoader().getResource("dataset.csv");
+        URL resource = getClass().getClassLoader().getResource("results.csv");
         assertNotNull(resource, "El archivo dataset.csv no se encontró en test/resources");
 
         String ruta = Paths.get(resource.toURI()).toString();
@@ -31,7 +31,7 @@ public class GestorArchivosTest {
 
     @Test
     public void testCargarDatos_SinDuplicarSelecciones() throws Exception {
-        URL resource = getClass().getClassLoader().getResource("dataset.csv");
+        URL resource = getClass().getClassLoader().getResource("results.csv");
         assertNotNull(resource, "El archivo dataset.csv no se encontró en test/resources");
 
         String ruta = Paths.get(resource.toURI()).toString();
@@ -50,7 +50,7 @@ public class GestorArchivosTest {
 
     @Test
     public void testCargarDatos_VerificarPrimerPartido() throws Exception {
-        URL resource = getClass().getClassLoader().getResource("dataset.csv");
+        URL resource = getClass().getClassLoader().getResource("results.csv");
         assertNotNull(resource, "El archivo dataset.csv no se encontró en test/resources");
 
         String ruta = Paths.get(resource.toURI()).toString();
