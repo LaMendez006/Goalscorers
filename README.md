@@ -1,6 +1,6 @@
 # Goal Scorers
 
-Aplicación desarrollada en Java que analiza los resultados de partidos de futbol desde un CSV para obtener estadisticas básicas.
+Goal Scorers es una aplicación desarrollada en Java cuyo objetivo es analizar resultados de partidos de fútbol a partir de un archivo CSV. A partir de estos datos, el programa permite obtener estadísticas básicas como victorias, empates, derrotas y goles marcados por cada selección.
 
 ## Estado del proyecto
 ```
