@@ -1,4 +1,4 @@
-package com.goalscorers.test;
+package test;
 
 import com.goalscorers.modelos.Seleccion;
 import org.junit.jupiter.api.Test;
