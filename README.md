@@ -63,10 +63,35 @@ GoalScorers:
 ## ¿Cómo ejecutar el proyecto?
 
 ### Requisitos
-- Java (ahorita busco la version)
-- Maven (ahorita busco la version)
+- Java 25 o superior
+- Maven 3.9.0 o superior
+- Git (si vas a clonar el repositorio)
 
-### Cuando estén las interfaces coloco esta parte
+#### Clonar el repositorio
+Abre la consola (CMD o PowerShell) y escribe:
+git clone 
+
+Entra a la carpeta del proyecto con:
+cd "ruta del proyecto"
+
+#### Compilar el proyecto
+Ejecuta:
+mvn clean install
+Esto descargará las dependencias y creará los archivos necesarios.
+
+#### Ejecutar la aplicación
+Para iniciar el programa, usa:
+mvn exec:java
+
+#### Uso de la aplicación
+Al iniciar, verás un menú con dos opciones:
+- Tabla de Resultados: muestra todos los partidos del CSV en forma de tabla.
+- Estadísticas por Selección: permite escribir el nombre de una selección y ver sus victorias, empates, derrotas y goles a favor.
+
+#### Archivo CSV
+El archivo results.csv ya está incluido en la carpeta src/main/resources.
+La aplicación lo carga automáticamente.
+Si quieres usar otro archivo, reemplaza ese CSV por uno nuevo con el mismo formato.
 
 ## Formato del CSV
 
@@ -78,15 +103,10 @@ fecha, equipo_local, equipo_visitante, puntuacion_local, puntuacion_visitante, t
 1874-03-07, Scotland, England, 2, 1, Friendly, Glasgow, Scotland, FALSE
 1875-03-06, England, Scotland, 2, 2, Friendly, London, England, FALSE
 ```
-## Ejemplos de uso
-
-tambien hago esta parte cuando esten las interfaces
 
 ## Proximas mejoras
 
 - Implementación de interfaz gráfica con Swing
-- Pruebas unitarias con JUnit
-- Integración con SonarCloud
 
 ## Autores
 ```
