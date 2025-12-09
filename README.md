@@ -69,10 +69,10 @@ GoalScorers:
 
 #### Clonar el repositorio
 Abre la consola (CMD o PowerShell) y escribe:
-git clone 
+git clone https://github.com/LaMendez006/Goalscorers.git
 
 Entra a la carpeta del proyecto con:
-cd "ruta del proyecto"
+cd GoalScorers
 
 #### Compilar el proyecto
 Ejecuta:
