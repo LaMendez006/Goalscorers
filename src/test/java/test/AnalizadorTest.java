@@ -1,4 +1,4 @@
-package com.goalscorers.test;
+package test;
 
 import com.goalscorers.logica.Analizador;
 import com.goalscorers.logica.DatosCargados;
