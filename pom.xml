@@ -28,7 +28,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>25</maven.compiler.release>
-        <exec.mainClass>com.mycompany.goalscorers.Goalscorers</exec.mainClass>
+        <exec.mainClass>com.goalscorers.util.Main</exec.mainClass>
     </properties>
     <build>
         <plugins>
@@ -42,10 +42,4 @@
             </plugin>
         </plugins>
     </build>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <exec.mainClass>com.autonoma.goalscorers.GoalScorers</exec.mainClass>
-    </properties>
 </project>
