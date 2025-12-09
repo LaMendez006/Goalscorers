@@ -9,7 +9,7 @@ Clases modelo (Partido, Seleccion) | Completado
 Logica para las estadísticas | Completado
 Interfaces graficas | Pendiente
 Pruebas unitarias | Completado
-Integracion con SonarCloud | Pendiente
+Integracion con SonarCloud | Completado
 ```
 ## Caracteristicas principales
 
