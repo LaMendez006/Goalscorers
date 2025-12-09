@@ -4,7 +4,8 @@
  */
 package com.goalscorers.util;
 
-import com.goalscorers.logica.DatosCargados;
+import com.goalscorers.logica.*;
+import com.goalscorers.modelos.*;
 
 /**
  *
@@ -12,7 +13,9 @@ import com.goalscorers.logica.DatosCargados;
  */
 public class Main {
     public static void main(String[] args){
-
+        DatosCargados datos = GestorArchivos.cargarDatos("C:/Users/hijo/Desktop/GoalScorers/src/main/resources/results.csv");
+        Seleccion s = datos.buscarSeleccionPorNombre("Colombia");
+        System.out.println(Analizador.obtenerGolesAFavor(datos, s));
     }
 }
 
